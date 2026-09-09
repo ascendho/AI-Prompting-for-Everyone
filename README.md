@@ -1,72 +1,31 @@
-# AI Prompting for Everyone — 学习笔记
+# AI Prompting for Everyone — Notes
 
-> 我的 [AI Prompting for Everyone](https://www.deeplearning.ai/courses/ai-prompting-for-everyone)（DeepLearning.AI / Andrew Ng）课程学习笔记。
-> **特点**：跳过视频看 slides + 课件，直接产出结构化笔记 + 可复用的 prompt 模板。
+<p align="center">
+  <a href="https://www.deeplearning.ai/courses/ai-prompting-for-everyone"><img src="https://img.shields.io/badge/Course-AI_Prompting_for_Everyone-ff6f00?style=for-the-badge&logo=deeplearningai&logoColor=white" alt="Course"></a>
+  <a href="./notes/README.md"><img src="https://img.shields.io/badge/Status-3/3_Complete-3CB371?style=for-the-badge" alt="Status"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-CC_BY--NC--4.0-lightgrey?style=for-the-badge" alt="License"></a>
+</p>
 
-## 📚 课程概览
+<p align="center">
+  <img src="assets/course-hero.png" alt="AI Prompting for Everyone 课程主页" width="760">
+</p>
 
-| 模块 | 主题 | 状态 | 笔记 |
-|---|---|---|---|
-| Module 1 | Finding Information（找信息：预训练 / Web search / Deep research） | ✅ 已完成 | [进入 →](./module-1-finding-information/README.md) |
-| Module 2 | 待学习 | ⏳ TODO | — |
-| Module 3 | 待学习 | ⏳ TODO | — |
+由 AI 教父 **Andrew Ng** 主讲的入门级 Prompt 工程课程（Beginner · 7 小时 · 21 节视频），由 **DeepLearning.AI** 出品。课程针对 2022 年以来飞速进化的现代 AI——从"怎么提问"到"AI 能帮我做什么"——教你无论现有水平如何，都能让 AI 在每天的工作和生活中真正帮到你。
 
-## 🗂 仓库结构
+课程围绕**三大主题**展开：**① Finding Information**——理解模型内置知识、何时用 Web search、何时该上 Deep research 拿带引用的报告；**② AI as a Thought Partner**——给对上下文、高效头脑风暴、让 AI 敢反驳你、写出不像机器人的文字；**③ Working with Multimedia & Code**——让 AI 看图、画图、不写代码就搭出网站和 App、分析个人数据。全程还有会飞的松鼠、Andrew 的童年老照片和烟花 demo 相伴。
 
-```
-AI-Prompting-for-Everyone/
-├── README.md                                    ← 你正在看
-├── module-1-finding-information/                ← M1 完整笔记
-│   ├── README.md                                  （M1 导读 + 章节地图）
-│   ├── 01-novice-vs-power-user.md                 （视频 1：5 大对比）
-│   ├── 02-pretrained-knowledge.md                 （视频 2：内置知识）
-│   ├── 03-web-search.md                           （视频 3：实时/本地/小众）
-│   ├── 04-web-search-sources.md                   （视频 4：信源 + 4 步流程）
-│   ├── 05-deep-research.md                        （视频 5：agentic + 万圣节案例）
-│   ├── 06-lab-overview.md                         （视频 6 + Lab 编程实验）
-│   ├── recap.md                                   （三大工具对比 + 自测题）
-│   └── images/                                    （抽自课件的截图）
-└── slides/                                       ← 课程 PDF（仅 M1 入仓）
-    └── AP4E_M1.pdf
-```
+课程面向所有日常使用 **ChatGPT / Claude / Gemini** 的用户，**无需任何技术背景**。没有前置门槛，任何人都能立刻上手——这也正是本仓库选择它作为 Prompt 学习蓝本的原因。
 
-> M2/M3 的 slides 等学完对应模块再补入 `slides/` 目录。
+## 快速导航
 
-## 🎯 我做这套笔记的初衷
+| 模块 | 主题 | 入口 |
+|---|---|---|
+| 1 | Finding Information | [`notes/01-finding-information/`](./notes/01-finding-information/README.md) |
+| 2 | AI as a Thought Partner | [`notes/02-ai-as-thought-partner/`](./notes/02-ai-as-thought-partner/README.md) |
+| 3 | Working with Multimedia & Code | [`notes/03-working-with-multimedia-code/`](./notes/03-working-with-multimedia-code/README.md) |
 
-- 🚫 **不刷视频**：原课 6 个视频 + 阅读材料 + 编程实验，全套 ≈ 2 小时，但用文字+截图形式凝练后 ≈ 30 分钟可读完。
-- 🧠 **每节都有"我能马上用的 prompt 模板"**：看完 → 直接复制粘贴 → 在你常用的 AI 里试。
-- 📊 **大量图示 + 决策流程图**：Mermaid 流程图 + 课件原图 + 文字总结，多通道强化记忆。
-- 🧪 **每章末尾的常见误区**：少踩 80% 的坑。
+> [!NOTE]
+> 本仓库是**跳视频、啃 slides 与课件**产出的结构化学习笔记，每个模块下含分章笔记 + 图示 + 可复用的 Prompt 模板 + 自测题，总览与进度见 [`notes/README.md`](./notes/README.md)。
 
-## ✍️ 笔记风格约定
-
-- **中文**写讲解；专有名词（GPT-4o、Deep research、Web search、Taco Bell、BlackBerry）保留英文。
-- **代码、prompt 模板** 保留英文。
-- **关键概念** 用粗体，**例子** 用引用块。
-- **图示** 来自课程 slides；**流程图** 优先用 Mermaid。
-- **所有 Prompt 模板** 都在每节末尾的 `🛠` 区域，可直接复制。
-
-## 🚀 快速开始
-
-如果你想**2 分钟看完 Module 1**：
-
-1. [module-1/README.md](./module-1-finding-information/README.md) — 章节地图 + 决策流程
-2. [module-1/recap.md](./module-1-finding-information/recap.md) — 三大工具对比 + 5 道自测题
-3. 再回头看任何一节的具体内容
-
-如果你想**扎实学完 Module 1**：
-
-按 01 → 02 → 03 → 04 → 05 → 06 → recap 顺序读，每节末尾的 prompt 模板**在 AI 里实际试一次**。
-
-## 📎 参考资料
-
-- 课程官网：<https://www.deeplearning.ai/courses/ai-prompting-for-everyone>
-- 课件 PDF：见 `slides/AP4E_M1.pdf`
-- 截图原图：见 `module-1-finding-information/images/`
-
-## 📝 许可
-
-- 课程版权归 DeepLearning.AI / Andrew Ng 所有。
-- 本仓库的笔记、prompt 模板、Mermaid 流程图均为本仓库作者的整理，可自由使用。
-- 课件 PDF 仅作个人学习用途，请勿二次分发。
+> [!IMPORTANT]
+> 课程版权归 DeepLearning.AI / Andrew Ng 所有，封面图来自[课程官网](https://www.deeplearning.ai/courses/ai-prompting-for-everyone)。本仓库笔记、模板与流程图按 [CC BY-NC 4.0](./LICENSE) 发布——可自由学习使用（请署名、勿商用）；课件 PDF 仅作个人学习用途，请勿二次分发。
