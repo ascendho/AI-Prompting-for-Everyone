@@ -49,7 +49,3 @@ yarn-error.log*
 
 # temp files created by opencode/agents
 .threadrelink/
-
-# M2/M3 courseware PDFs (not yet studied, will add when corresponding module is done)
-slides/AP4E_M2.pdf
-slides/AP4E_M3.pdf
