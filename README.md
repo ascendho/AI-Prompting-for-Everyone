@@ -21,13 +21,13 @@
 | 3 | Working with Multimedia & Code | [`notes/03-working-with-multimedia-code/`](./notes/03-working-with-multimedia-code/README.md) |
 
 > [!NOTE]
-> 本仓库是 **AI Prompting for Everyone** 课程的结构化学习笔记，每个模块下含分章笔记 + 图示 + 可复用的 Prompt 模板 + 自测题，总览与进度见 [`notes/README.md`](./notes/README.md)。
+> 本仓库是 **AI Prompting for Everyone** 课程的结构化学习笔记：每个模块含分章笔记 + 图示，配套衍生整理的 [Prompt 模板库](./prompts/README.md)与[自测题](./practice/README.md)，总览与进度见 [`notes/README.md`](./notes/README.md)。
 
 ## 怎么用
 
-从感兴趣的模块 `README.md` 进入，按 `01 → 02 → ... → recap` 顺序阅读；每节末尾的 **Prompt 模板**建议直接复制到常用的 AI 里跑一遍。想先快速了解全貌，可先读每个模块的 `recap.md`。
+从感兴趣的模块 `README.md` 进入，按 `01 → 02 → ... → recap` 顺序阅读；配套的 **Prompt 模板**（[`prompts/`](./prompts/README.md)）建议直接复制到常用的 AI 里跑一遍。想先快速了解全貌，可先读每个模块的 `recap.md`。
 
 ## 📝 许可
 
 > [!IMPORTANT]
-> 课程版权归 DeepLearning.AI / Andrew Ng 所有，封面图来自[课程官网](https://www.deeplearning.ai/courses/ai-prompting-for-everyone)。本仓库笔记、模板与流程图按 [CC BY-NC 4.0](./LICENSE) 发布——可自由学习使用（请署名、勿商用）；课件 PDF 仅作个人学习用途，请勿二次分发。
+> 课程版权归 DeepLearning.AI / Andrew Ng 所有，封面图来自[课程官网](https://www.deeplearning.ai/courses/ai-prompting-for-everyone)。本仓库笔记、模板、自测题与流程图按 [CC BY-NC 4.0](./LICENSE) 发布——可自由学习使用（请署名、勿商用）；课件 PDF 仅作个人学习用途，请勿二次分发。
