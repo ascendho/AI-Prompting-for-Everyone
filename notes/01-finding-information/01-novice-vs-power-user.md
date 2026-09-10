@@ -3,13 +3,11 @@
 > **一句话核心**：同一款 AI 模型，**提问方式不同**，价值差距可以是从「cool but not life-changing」到「saved me hours」级别的差异。
 
 ## 📌 关键概念
-
 - **AI novice**（AI 新手）把 AI 当聊天机器人，问简单问题，期望它「猜」出自己想要什么。
 - **AI power user**（AI 重度用户）会：给难的任务、提供丰富上下文、要中立反馈、用深度研究、把 AI 当协作写手而非代笔。
 - AI 的「silly mistakes」容易上新闻，但 AI 真正的价值（写研究报告、分析个人数据、建网站）被严重低估。
 
 ## 🖼 5 个对比场景
-
 吴恩达用 5 个生活化的对比，把 novice 和 power user 拉开：
 
 ### 1️⃣ 问难的问题 vs 问简单的问题
@@ -62,7 +60,6 @@
 💡 **关键差异**：写作任务的黄金法则是 **outline → critique → expand**。**不要让 AI 一口气写完**。
 
 ## 🚀 AI 真正能做的事（不是 headline mistakes）
-
 ![AI is more than its high profile mistakes](./images/ai-beyond-mistakes.png)
 
 > "AI limitations are important, but AI power users can work around these limitations."
@@ -74,7 +71,6 @@
 - 建网站（build websites）
 
 ## 🎁 成为 power user 的好处
-
 ![Power user benefits](./images/power-user-benefits.png)
 
 - ⏱ **节省时间 / 改善生活**
@@ -83,43 +79,9 @@
 
 无论你现在处于什么位置（wherever you are!），这些课都能帮你成为 AI power user。
 
-## 🛠 我能马上用的 prompt 模板
-
-```text
-模板 1: 问难的问题
-───────────────────
-[把上下文文件粘贴进来]
-Compare these [N] options across [维度 1, 维度 2, 维度 3].
-Think hard before answering. Show me a comparison table.
-
-模板 2: 自评 / 写作类
-───────────────────
-[粘贴过去的工作记录、笔记、链接]
-Write a self-review based on what I actually did. Avoid generic phrases
-like "I'm a hard worker" or "I go above and beyond".
-
-模板 3: 要诚实反馈
-───────────────────
-[把你的方案 / 想法 描述清楚]
-Critique the following idea objectively. Use this rubric:
-  - Problem & market (0-20)
-  - Solution & value prop (0-20)
-  - Competitive advantage (0-20)
-  - Business model (0-20)
-  - Feasibility & execution (0-20)
-Be specific. Don't hedge.
-
-模板 4: 写作协作（不要一步到位）
-───────────────────
-Step 1: Outline a blog post about [topic] based on these notes:
-        [粘贴 notes.txt]
-Step 2: (review outline) Skip section [X]. Add an anecdote about [Y].
-Step 3: Expand the revised outline into bullet points.
-Step 4: Turn the bullets into prose.
-```
+> 🛠 本节的 prompt 模板已收录于 [`prompts/01-finding-information.md`](../../prompts/01-finding-information.md)。
 
 ## ⚠️ 常见误区
-
 - ❌ **"AI 给我的答案很无聊，那 AI 就这样"** — 多半是 prompt 太短或太诱导。
 - ❌ **"AI 总爱拍马屁"** — 你的 prompt 里如果带"great / awesome / 帮我支持一下 X"，AI 当然顺着说。
 - ❌ **"让 AI 写一篇完整文章"** — 99% 的情况你会得到 AI slop。先 outline、再扩展。

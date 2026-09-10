@@ -78,4 +78,4 @@ Lab 做完后再去做 [Module 1 Quiz](https://www.deeplearning.ai/courses/ai-pr
 
 ---
 
-> 下一节 [recap: 总览 + 三大工具对比 + 决策流程图 + Quiz 自测](./recap.md)
+> 下一节 [recap: 总览 + 三大工具对比 + 决策流程图](./recap.md)；自测题见 [practice/01-finding-information.md](../../practice/01-finding-information.md)。

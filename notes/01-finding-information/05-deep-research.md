@@ -3,14 +3,12 @@
 > **一句话核心**：当问题需要**多源综合 + 持续评估**时，让 AI 进入 **agentic** 模式——它会自己规划、自己搜、自己读、自己补，自己交。
 
 ## 📌 关键概念
-
 - **Deep research** 是一种 **agentic（智能体式）AI 行为**：模型**自己决定下一步做什么**。
 - 流程：计划 → 多轮 (web search + read) → 评估信源 → 合成 → 起草报告 → 加引用。
 - 与普通 web search 的根本区别：**会循环**——信源不够时回去再搜再读。
 - 输出通常是一份**带引用的长报告**（几百到上千字 + 几十条引用）。
 
 ## 🎃 案例：在前院搭万圣节鬼屋
-
 ### 用户的输入
 
 > Help me set up a haunted house in my front yard for Halloween:
@@ -60,7 +58,6 @@ AI 输出一个**完整应用**（在 Gemini 里展示）：
 这是一份**能直接落地执行**的研究报告，而不只是几个段落。
 
 ## 🧬 Deep research 到底在循环什么
-
 ![Example deep research flow](./images/deep-research-flow.png)
 
 ```
@@ -91,7 +88,6 @@ Plan ───▶   ├── Web search ── Read ✓ ──┼──▶  Eva
 **核心循环**：评估信源够不够 → 不够就回去再搜 → 够了就合成报告 → 加引用 → 输出。
 
 ## 📊 Web search vs Deep research
-
 ![Web search vs deep research](./images/websearch-vs-deep-research.png)
 
 | 维度 | Web search | Deep research |
@@ -111,38 +107,9 @@ Plan ───▶   ├── Web search ── Read ✓ ──┼──▶  Eva
 
 问题越长、越开放、子问题越多 → 越倾向 deep research。
 
-## 🛠 我能马上用的 prompt 模板
-
-```text
-模板 1: 触发 deep research
-───────────────────
-Do a deep research on [topic]. Before answering, plan the
-sub-questions you'll investigate. Iterate on your searches
-until you have authoritative sources. Deliver a report
-with inline citations.
-
-模板 2: 限定 deep research 的边界
-───────────────────
-Deep research [topic] with these constraints:
-  - Geographic focus: [国家/城市]
-  - Time range: last [N] years
-  - Source priority: peer-reviewed > government > reputable media
-  - Length: 1500-2000 words
-  - Output: report with sections + citations
-
-模板 3: 让 deep research 给出可执行建议
-───────────────────
-Deep research [problem]. I need not just facts, but a concrete
-action plan I can start this week. Include:
-  - Background (the relevant context)
-  - Key findings
-  - Risks
-  - Step-by-step action plan
-  - Open questions to investigate further
-```
+> 🛠 本节的 prompt 模板已收录于 [`prompts/01-finding-information.md`](../../prompts/01-finding-information.md)。
 
 ## ⚠️ 常见误区
-
 - ❌ **"Deep research = 答案更准确"** — 它只是**参考更多信源**，仍受训练截止、信源质量影响。
 - ❌ **"简单问题也用 deep research"** — 杀鸡用牛刀。**找一家附近的咖啡店**用 deep research 会浪费 5 分钟。
 - ❌ **"我看到报告就完事了"** — Deep research 的报告**仍需你批判性阅读**。AI 不能替你判断医学/法律/财务风险。
