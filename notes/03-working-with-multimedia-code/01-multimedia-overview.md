@@ -60,12 +60,14 @@
 ## 🖼 输出端的成本/速度谱
 ![Time/cost of generation spectrum](./images/multimedia-cost-spectrum.png)
 
-```
-低                                                            非常高
-├──── Text ──── Speech ──── Images ──── Video ────┤
-       秒         几秒         几十秒        分钟级
-       < $0.01    < $0.05      几美分         几十美分
-```
+谱系从左到右：**耗时与成本从低到非常高**。
+
+| 模态 | 耗时 | 成本 |
+|---|---|---|
+| Text | 秒级 | < $0.01 |
+| Speech | 几秒 | < $0.05 |
+| Images | 几十秒 | 几美分 |
+| Video | 分钟级 | 几十美分 |
 
 **真正常见的对比**（用 DALL·E 3 数据）：
 

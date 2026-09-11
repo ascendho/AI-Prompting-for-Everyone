@@ -24,15 +24,11 @@
 ## 🕰 预训练知识 vs 互联网：时间维度
 ![Pretrained knowledge is frozen in time](./images/websearch-cutoff.png)
 
-```
-   训练数据中                                  训练截止后
-   ────────────────────────────────────── │ ────────────────────────
-                                            │
-   6 x 7 = 42   Why was 6 afraid of 7?     │   6 7 meme
-   (数学)       (老笑话)                     │   (新梗，AI 没见过)
-                                            │
-              Knowledge cutoff date
-```
+| 训练数据中 | 训练截止后 |
+|---|---|
+| `6 x 7 = 42`（数学）<br>"Why was 6 afraid of 7?"（老笑话） | `6 7 meme`（新梗，AI 没见过） |
+
+分界线 = **Knowledge cutoff date（知识截止日期）**。
 
 - AI 肚子里的「为什么 6 怕 7」这种老笑话它知道。
 - 训练**之后**才诞生的 6-7 meme 它没学过。

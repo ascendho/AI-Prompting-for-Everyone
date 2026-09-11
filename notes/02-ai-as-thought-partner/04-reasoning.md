@@ -80,12 +80,12 @@ AI 思考步骤（左侧）vs 抽象图（右侧）：
         Use tool      Done     │ More
              │         │       │ context
              ▼         ▼       │
-       ┌──────┐   ┌─────────┐ │
-       │ Tool │   │ Final   │ │
-       │ call │   │ answer  │ │
-       └──────┘   └─────────┘ │
-                              │
-       (回到 Reason 继续想)───┘
+        ┌──────┐   ┌─────────┐ │
+        │ Tool │   │ Final   │ │
+        │ call │   │ answer  │ │
+        └──────┘   └─────────┘ │
+                               │
+        (loop back to Reason)──┘
 ```
 
 **关键**：reasoning 是一个**循环**——需要时回到"context"再想，可能调用更多工具，直到 done 才输出 final answer。

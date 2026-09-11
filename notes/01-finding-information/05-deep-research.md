@@ -32,12 +32,12 @@
 
 AI 看到任务后**自动展开**：
 
-```
-[Gathering] Palo Alto 的许可证、万圣节条例、安全规范 ──▶ 读 ca.gov, paloalto.gov
-[Piece together] 噪声限制 + 消防 + 许可                  ──▶ 读 wikipedia Fire safety
-[Looking for] 装饰灵感                                 ──▶ 读 pinterest, spirithalloween.com
-[Writing] 报告
-```
+| AI 的自主步骤 | 读取来源 |
+|---|---|
+| `[Gathering]` Palo Alto 的许可证、万圣节条例、安全规范 | ca.gov、paloalto.gov |
+| `[Piece together]` 噪声限制 + 消防 + 许可 | wikipedia Fire safety |
+| `[Looking for]` 装饰灵感 | pinterest、spirithalloween.com |
+| `[Writing]` 撰写报告 | —— |
 
 > 课件原话：「Agentic AI: model makes decisions by itself on what to do next」
 
@@ -71,8 +71,8 @@ Plan ───▶   ├── Web search ── Read ✓ ──┼──▶  Eva
             └── Web search ── Read ✗ ──┘
                                           │
               ┌──── Sufficient ───────────┘
-              │                            │
-              ▼                            ▼
+              │                           │
+              ▼                           ▼
         Synthesize sources          More needed ──▶ 回到 Web search/Read
               │
               ▼

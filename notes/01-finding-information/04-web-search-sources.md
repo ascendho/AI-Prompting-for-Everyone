@@ -25,18 +25,10 @@
 
 课件的视觉化表达：
 
-```
-                    热门 ≠ 可靠
-                         │
-   ┌─────────────────────┼─────────────────────┐
-   │                     │                     │
-   ▼                     ▼                     ▼
-社交媒体、博客、      中间地带              可靠来源
-论坛                                     (WHO、FDA、PubMed、
-   "Without steering, models pull               同行评议论文)
-    from what's most available—
-    not most reliable."
-```
+| 来源类型 | 代表 |
+|---|---|
+| 默认拉取：最热门的来源 | 社交媒体、博客、论坛 —— 引用大头是 Reddit、YouTube、Facebook 这类高流量站点 |
+| 显式引导后才拉：可靠来源 | WHO、FDA、PubMed、同行评议论文 |
 
 > 原文："Without steering, models pull from what's most available — not most reliable."
 
@@ -57,10 +49,10 @@ AI 吐出一份"亨德森市跑步地点"列表 —— 但其中一家已经标�
 ```
               你的 prompt
                   │
-   ┌──────────────▼──────────────┐
-   │    User-facing AI model     │
-   │   (解析: 主题/任务/信源/深度)│
-   └──────────────┬──────────────┘
+   ┌──────────────▼───────────────┐
+   │    User-facing AI model      │
+   │  Parse: topic/task/sources   │
+   └──────────────┬───────────────┘
                   ▼
    ┌──────────────────────────────┐
    │ Assistant AI model           │
@@ -71,10 +63,12 @@ AI 吐出一份"亨德森市跑步地点"列表 —— 但其中一家已经标�
    │   Filter ─▶ Summarize        │
    │   irrelevant   findings      │
    │   results                    │
-   └──────────────┬──────────────┘
+   └──────────────┬───────────────┘
                   ▼
              Generate answer
 ```
+
+（`Parse` = AI 先解析你的：主题 / 任务 / 信源 / 深度要求）
 
 > 课件警告：「Not read all pages in their entirety!」—— AI **不会通读每个网页**，只扫标题和关键词。
 

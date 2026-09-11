@@ -24,30 +24,19 @@
 | [06](./06-lab-overview.md) | Lab overview: AI model prompt comparison | 视频 6 (4m) + Lab | ~15 min |
 | [recap](./recap.md) | Finding information 总览 + 三大工具对比 | Recap | ~10 min |
 
-**建议**：按顺序看，配套的 [prompt 模板](../../prompts/01-finding-information.md)可以一边看一边在自己常用的 AI 里试一下，再做 [自测题](../../practice/01-finding-information.md) 自查，最后去 [Module 1 Quiz](https://www.deeplearning.ai/courses/ai-prompting-for-everyone) 检验。
+**建议**：按顺序看，配套的 [prompt 模板](../../prompts/01-finding-information.md)可以一边看一边在自己常用的 AI 里试一下，再做 [自测题](../../practice/01-finding-information.md) 自查，最后去 [Module 1 Quiz](https://learn.deeplearning.ai/courses/ai-prompting-for-everyone/lesson/jcmm7m69/module-1-quiz) 检验。
 
 ## 📐 模块主线
 
-```
-        你有一个问题
-              │
-              ▼
-   ┌──────────────────────┐
-   │  预训练知识够用吗？    │
-   └──────────┬───────────┘
-              │ 不够
-              ▼
-   ┌──────────────────────┐
-   │  需要实时/本地/小众？  │ ── 是 ──▶  Web search
-   └──────────┬───────────┘                │
-              │ 否                          ▼
-              ▼                     想要权威来源？
-   ┌──────────────────────┐          │
-   │  复杂综合 / 多子题？  │          ▼
-   └──────────┬───────────┘     显式指明信源
-              │ 是
-              ▼
-        Deep research
+```mermaid
+flowchart TD
+    Q["你有一个问题"] --> A{"预训练知识够用吗?"}
+    A -- 不够 --> B{"需要实时/本地/小众?"}
+    B -- 是 --> WS["Web search"]
+    B -- 否 --> C{"复杂综合 / 多子题?"}
+    C -- 是 --> DR["Deep research"]
+    WS --> D{"想要权威来源?"}
+    D -- 是 --> E["显式指明信源"]
 ```
 
 详细决策流程见 [recap.md](./recap.md)。

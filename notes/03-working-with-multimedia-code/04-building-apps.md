@@ -70,8 +70,7 @@ OUTPUT: produces a simulation of what I designed
 ![Experiment with simple app ideas - difficulty spectrum](./images/building-apps-difficulty.png)
 
 ```
-简单                                                                  复杂
-├──── 单机游戏 ────┤──── 联网多用户 ────┤──── 实时 AI 反馈 ────┤
+简单 ──── 单机游戏 ──── 联网多用户 ──── 实时 AI 反馈 ──── 复杂
 ```
 
 | 难度 | 例子 |
