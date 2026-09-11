@@ -70,7 +70,7 @@ for model in models:
 
 ## ⏭ Module 1 Quiz 准备建议
 
-Lab 做完后再去做 [Module 1 Quiz](https://learn.deeplearning.ai/courses/ai-prompting-for-everyone/lesson/jcmm7m69/module-1-quiz)，重点复盘：
+Lab 做完后再去做 [Module 1 Quiz](https://www.deeplearning.ai/courses/ai-prompting-for-everyone)，重点复盘：
 
 - 3 个工具的**对比表**（见 [recap.md](./recap.md)）
 - 5 个 novice vs power user 场景（见 [01](./01-novice-vs-power-user.md)）

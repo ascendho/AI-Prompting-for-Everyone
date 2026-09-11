@@ -66,6 +66,6 @@ flowchart TD
 - **多模态 + 代码**（Image understanding / Image generation / Building apps / Data analysis）
 
 **下一步建议**：
-1. 去做课程最后的 [Final project](https://learn.deeplearning.ai/courses/ai-prompting-for-everyone/lesson/rm66gc/-final-project)
+1. 去做课程最后的 [Final project](https://www.deeplearning.ai/courses/ai-prompting-for-everyone)
 2. 把这个 repo 当 prompt 库，遇到新任务先查表
 3. 半年后回来 review：哪些 prompt 模板还在用？哪些已经过时（"think step by step" 那种）？

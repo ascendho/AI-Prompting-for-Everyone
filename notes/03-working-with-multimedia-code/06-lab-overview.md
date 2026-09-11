@@ -100,7 +100,7 @@ Now add:
 
 ## ⏭ Module 3 Quiz 准备建议
 
-Lab 做完后再去做 [Module 3 Quiz](https://learn.deeplearning.ai/courses/ai-prompting-for-everyone/lesson/bvllku83/module-3-quiz)，重点复盘：
+Lab 做完后再去做 [Module 3 Quiz](https://www.deeplearning.ai/courses/ai-prompting-for-everyone)，重点复盘：
 
 | 主题 | 关键 |
 |---|---|
