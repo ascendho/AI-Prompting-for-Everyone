@@ -24,7 +24,7 @@
 | [06](./06-lab-overview.md) | Lab overview: AI model prompt comparison | 视频 6 (4m) + Lab | ~15 min |
 | [recap](./recap.md) | Finding information 总览 + 三大工具对比 | Recap | ~10 min |
 
-**建议**：按顺序看，配套的 [prompt 模板](../../prompts/01-finding-information.md)可以一边看一边在自己常用的 AI 里试一下，再做 [自测题](../../practice/01-finding-information.md) 自查，最后去 [Module 1 Quiz](https://www.deeplearning.ai/courses/ai-prompting-for-everyone) 检验。
+**建议**：按顺序看，配套的 [prompt 模板](../../prompts/01-finding-information.md)可以一边看一边在自己常用的 AI 里试一下，再做 [自测题](../../practice/01-finding-information.md) 自查，最后去 [Module 1 Quiz](https://learn.deeplearning.ai/courses/ai-prompting-for-everyone/lesson/jcmm7m69/module-1-quiz) 检验。
 
 ## 📐 模块主线
 

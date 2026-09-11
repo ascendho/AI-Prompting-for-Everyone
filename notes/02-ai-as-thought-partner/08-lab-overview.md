@@ -104,7 +104,7 @@ Rubric:
 
 ## ⏭ Module 2 Quiz 准备建议
 
-Lab 做完后再去做 [Module 2 Quiz](https://www.deeplearning.ai/courses/ai-prompting-for-everyone)，重点复盘：
+Lab 做完后再去做 [Module 2 Quiz](https://learn.deeplearning.ai/courses/ai-prompting-for-everyone/lesson/3sxxzzl3/module-2-quiz)，重点复盘：
 
 - **Brainstorming 配方**：Context → Options → Iteration（[01](./01-brainstorming.md)）
 - **Context 三原则**：多≠好/相关才好/新话题开新对话（[02](./02-context.md)）
