@@ -5,11 +5,11 @@
 
 ## 📚 按模块索引
 
-| 模块 | 主题 | 题数 | 对应笔记 |
-|---|---|---|---|
-| 1 | Finding Information | [`01-finding-information.md`](./01-finding-information.md)（5 题） | [`notes/01-finding-information/`](../notes/01-finding-information/README.md) |
-| 2 | AI as a Thought Partner | [`02-ai-as-thought-partner.md`](./02-ai-as-thought-partner.md)（7 题） | [`notes/02-ai-as-thought-partner/`](../notes/02-ai-as-thought-partner/README.md) |
-| 3 | Working with Multimedia & Code | [`03-working-with-multimedia-code.md`](./03-working-with-multimedia-code.md)（7 题） | [`notes/03-working-with-multimedia-code/`](../notes/03-working-with-multimedia-code/README.md) |
+| 模块 | 主题 | 题数 |
+|---|---|---|
+| 1 | [Finding Information](../notes/01-finding-information/README.md) | [`01-finding-information.md`](./01-finding-information.md)（5 题） |
+| 2 | [AI as a Thought Partner](../notes/02-ai-as-thought-partner/README.md) | [`02-ai-as-thought-partner.md`](./02-ai-as-thought-partner.md)（7 题） |
+| 3 | [Working with Multimedia & Code](../notes/03-working-with-multimedia-code/README.md) | [`03-working-with-multimedia-code.md`](./03-working-with-multimedia-code.md)（7 题） |
 
 ## 🧭 怎么用
 
